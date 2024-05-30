@@ -25,7 +25,7 @@ public class StudentGradeEvaluation {
         // Prompt the user to enter their exam score
         System.out.print("Enter your exam score: ");
         // Read the double input provided by the user for score
-        double score = scanner.nextDouble();
+        int score = scanner.nextInt();
         // Print the user's score
         System.out.println("Score: " + score);
         
