@@ -9,25 +9,25 @@ public class StudentGradeEvaluation {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt the user to enter their name
-        System.out.println("Enter your name: ");
+        System.out.print("Enter your name: ");
         // Read the input provided by the user for name
         String name = scanner.nextLine();
         // Print the user's name
-        System.out.println("Your name " + name);
+        System.out.println("Name: " + name);
 
         // Prompt the user to enter their age
-        System.out.println("Enter your age: ");
+        System.out.print("Enter your age: ");
         // Read the integer input provided by the user for age
         int age = scanner.nextInt();
         // Print the user's age
-        System.out.println("Your age " + age);
+        System.out.println("Age: " + age);
 
         // Prompt the user to enter their exam score
-        System.out.println("Enter your exam score: ");
+        System.out.print("Enter your exam score: ");
         // Read the double input provided by the user for score
-        Double score = scanner.nextDouble();
+        double score = scanner.nextDouble();
         // Print the user's score
-        System.out.println("Your exam score " + score);
+        System.out.println("Score: " + score);
         
         String grade;
 
