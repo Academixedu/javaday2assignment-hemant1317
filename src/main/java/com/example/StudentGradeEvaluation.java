@@ -1,7 +1,6 @@
 package com.example;
 
 import java.util.Scanner;
-import java.util.jar.Attributes.Name;
 
 public class StudentGradeEvaluation {
     public static void main(String[] args) {
@@ -30,24 +29,27 @@ public class StudentGradeEvaluation {
         // Print the user's score
         System.out.println("Your exam score " + score);
         
+        String grade;
+
         // Determine the grade
         if (score >= 90) {
-            System.out.println("Grade: A");
+            grade = "A";
         } else if (score >= 80 && score <=89) {
-            System.out.println("Grade: B");
+                grade = "B";
             } else if (score >= 70 && score <= 79) {
-                System.out.println("Grade: C");
+                    grade = "C";
             }  else if (score >= 60 && score <= 69) {
-                    System.out.println("Grade: D");
+                        grade = "D";
             }    else {
-                        System.out.println("Grade: F");
+                            grade = "F";
             }
         
         // Print the student's details
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Score: " + score);
-        
+        System.out.println("Grade: " + grade);
+
 
        
     }
